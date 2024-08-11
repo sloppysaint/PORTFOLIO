@@ -6,19 +6,19 @@ const services = [
   {
     num: "01",
     title: "Web Development",
-    desc: "We build fast, scalable, and secure web applications using the latest technologies.",
+    desc: "I build fast, scalable, and secure web applications using the latest technologies.",
     href:""
   },
   {
     num: "02",
     title: "UI/UX Design",
-    desc: "We create user-centered designs that are visually appealing and easy to use.",
+    desc: "I can create user-centered designs that are visually appealing and easy to use.",
     href:""
   },
   {
     num: "03",
     title: "Logo Design",
-    desc: "We design unique and memorable logos that represent your brand's identity.",
+    desc: "I can design unique and memorable logos that represent your brand's identity using figma and canva.",
     href:""
   }
 ]

@@ -8,7 +8,7 @@ const socials = [
     { icon: <FaGithub />, path: "https://github.com/sloppysaint" },
     { icon: <FaLinkedinIn />, path: "https://www.linkedin.com/in/piyush-khattar-39b49a261/" },
     // { icon: <XIcon />, path: "" },
-    { icon: <FaInstagram />, path: "" },
+    { icon: <FaInstagram />, path: "https://www.instagram.com/" },
 ];
 
 const Social = ({ containerStyles, iconStyles }) => {

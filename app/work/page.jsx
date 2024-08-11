@@ -17,30 +17,32 @@ const projects = [
     title: 'Project 1',
     description: 'A fully functional Spotify clone built using HTML, CSS, and JavaScript. This project includes features such as music playback, playlists and a responsive design. The aim was to recreate the user interface of Spotify and provide a seamless music streaming experience',
     stack: [{ name: "Html" }, { name: "CSS" }, { name: "Javascript" }],
-    image: "/spotify.jpg",
-    live: "/", // Added live property
-    github: "/",
+    image: "/spotify.png",
+    live: "", 
+    github: "https://github.com/sloppysaint/SPOTIFY",
   },
   {
-    num: '02',
-    category: 'fullstack',
+    num: '03',
+    category: 'frontend',
     title: 'Project 2',
-    description: 'Developed a new user interface for the Gibbly website using React, Vite, Tailwind CSS, Express, and Node.js. The redesigned platform allows teachers to create quizzes and students to play quizzes, enhancing the overall user experience with an intuitive and engaging interface. The backend is powered by Express and Node.js to handle quiz creation, management, and user interactions efficiently.',
-    stack: [ { name: "Javascript" }, { name: "React" }, { name: "Vite" }, { name: "Tailwind.CSS" }, { name: "Node.js" }],
-    image: "/",
-    live: "/", // Added live property
-    github: "/",
+    description: 'The Unity Fund website is designed to help underprivileged communities by facilitating donations and support. The site includes sections like Vision, Mission, and Banner, each dedicated to showcasing our efforts and goals. This project feature a responsive design, ensuring optimal user experience across all devices.',
+    stack: [ { name: "Javascript" }, { name: "React" }, { name: "Vite" }, { name: "Tailwind CSS" }],
+    image: "/unityFund.png",
+    live: "https://donateunityfund.netlify.app/",
+    github: "https://github.com/sloppysaint/unityFund",
   },
   {
     num: '03',
     category: 'fullstack',
     title: 'Project 3',
     description: 'Developed a new user interface for the Gibbly website using React, Vite, Tailwind CSS, Express, and Node.js. The redesigned platform allows teachers to create quizzes and students to play quizzes, enhancing the overall user experience with an intuitive and engaging interface. The backend is powered by Express and Node.js to handle quiz creation, management, and user interactions efficiently.',
-    stack: [{ name: "Html" }, { name: "CSS" }, { name: "Javascript" }, { name: "React" }, { name: "Vite" }, { name: "Tailwind CSS" }, { name: "Node.js" }, { name: "Express.js" }, { name: "MongoDB" }],
-    image: "/",
-    live: "/", // Added live property
-    github: "/",
+    stack: [ { name: "Javascript" }, { name: "React" }, { name: "Vite" }, { name: "Tailwind.CSS" }, { name: "Node.js" }],
+    image: "/gibbly.png",
+    backgroundPosition: '50% 30%',
+    live: "", 
+    github: "https://github.com/sloppysaint/Gibblyweb",
   },
+  
 ]
 
 const Work = () => {
