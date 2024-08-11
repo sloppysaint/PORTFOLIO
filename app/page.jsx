@@ -12,11 +12,11 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none ">
             <span className="text-xl">Aspiring Software Developer</span>
             <h1 className="h1 mb-6">
-              Hello I'm <br /> <span className="text-accent">Piyush Khattar</span>
+              Hello I&apos;m <br /> <span className="text-accent">Piyush Khattar</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               I am proficient in various programming languages and technologies. 
-              An aspiring full stack developer currently pursuing Btech in Computer Science from Bharati Vidyapeeth's College of Engineering (BVCOE).
+              An aspiring full stack developer currently pursuing Btech in Computer Science from Bharati Vidyapeeth&apos;s College of Engineering (BVCOE).
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
