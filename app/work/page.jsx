@@ -22,11 +22,11 @@ const projects = [
     github: "https://github.com/sloppysaint/SPOTIFY",
   },
   {
-    num: '03',
+    num: '02',
     category: 'frontend',
     title: 'Project 2',
     description: 'The Unity Fund website is designed to help underprivileged communities by facilitating donations and support. The site includes sections like Vision, Mission, and Banner, each dedicated to showcasing our efforts and goals. This project feature a responsive design, ensuring optimal user experience across all devices.',
-    stack: [ { name: "Javascript" }, { name: "React" }, { name: "Vite" }, { name: "Tailwind CSS" }],
+    stack: [  { name: "React" }, { name: "Vite" }, { name: "Tailwind.CSS" }],
     image: "/unityFund.png",
     live: "https://donateunityfund.netlify.app/",
     github: "https://github.com/sloppysaint/unityFund",
@@ -36,7 +36,7 @@ const projects = [
     category: 'fullstack',
     title: 'Project 3',
     description: 'Developed a new user interface for the Gibbly website using React, Vite, Tailwind CSS, Express, and Node.js. The redesigned platform allows teachers to create quizzes and students to play quizzes, enhancing the overall user experience with an intuitive and engaging interface. The backend is powered by Express and Node.js to handle quiz creation, management, and user interactions efficiently.',
-    stack: [ { name: "Javascript" }, { name: "React" }, { name: "Vite" }, { name: "Tailwind.CSS" }, { name: "Node.js" }],
+    stack: [  { name: "React" }, { name: "Vite" }, { name: "Tailwind.CSS" }, { name: "Nodejs" }],
     image: "/gibbly.png",
     backgroundPosition: '50% 30%',
     live: "", 
@@ -55,7 +55,7 @@ const Work = () => {
     setProject(projects[currentIndex]);
   }
   return (
-    <motion.section initial={{ opacity: 0 }} animate={{ opacity: 1 ,transition:{delay:2.4, duration: 0.4, ease:"easeIn"}}} className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0">
+    <motion.section initial={{ opacity: 0 }} animate={{ opacity: 1 ,transition:{delay:2.4, duration: 0.4, ease:"easeIn"}}} className="min-h-[95vh] flex flex-col justify-center py-12 xl:px-0">
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
@@ -72,7 +72,7 @@ const Work = () => {
               <ul className="flex gap-4">
                 {project.stack.map((item, index) => {
                   return (
-                    <li key={index} className="text-xl text-accent">
+                    <li key={index} className="text-xl text-accent flex flex-wrap">
                       {item.name}
                       {/* remove the last comma */}
                       {index !== project.stack.length - 1 && ','}
@@ -118,11 +118,11 @@ const Work = () => {
               {projects.map((project,index)=>{
                 return(
                   <SwiperSlide key={index} className="w-full">
-                    <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
+                    <div className="h-[460px] relative group flex justify-center items-center bg-pink-50">
                       {/* overlay */}
-                      <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
+                      <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-[1]"></div>
                       {/* image */}
-                      <div className="relative w-full h-full">
+                      <div className="relative w-full h-full z-[2]">
                         <Image src={project.image} fill className="object-cover" alt=""/>
                       </div>
                     </div>
